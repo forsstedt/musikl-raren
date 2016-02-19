@@ -1,0 +1,18 @@
+.hidden-right-menu {
+  background: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 200px;
+  padding: 20px;
+  z-index: 3;
+  font-size: 1.5em;
+  line-height: 2;
+  transform: translateX(-240px);
+  transition: all 0.2s ease-in;
+}
+
+.hidden-right-menu.open {
+  transform: translateX(0);
+}
